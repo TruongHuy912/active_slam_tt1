@@ -54,7 +54,11 @@ tools/snapshots/
 repomix-output*
 .codegraph/
 .understand-anything/intermediate/
+.understand-anything/tmp/
 .understand-anything/diff-overlay.json
+**/.understand-anything/intermediate/
+**/.understand-anything/tmp/
+**/.understand-anything/diff-overlay.json
 
 # Optional large world/map assets
 external_worlds/
