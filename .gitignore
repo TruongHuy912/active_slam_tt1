@@ -74,3 +74,6 @@ Bumper-Bot-main/bumperbot_hardware/
 Bumper-Bot-main/bumperbot_description/meshes/
 Bumper-Bot-main/bumperbot_description/models/**/meshes/
 Bumper-Bot-main/bumperbot_description/models/**/materials/textures/
+
+# Understand-Anything local graph/cache
+Bumper-Bot-main/bumperbot_active_slam/.understand-anything/
