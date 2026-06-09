@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.6">
+  <model name="aws_robomaker_retail_RetailShopFloor_01">
+    <link name="link">
+      <inertial>
+        <mass>100</mass>
+      </inertial>
+      <collision name="collision">
+        <pose>-0.257416 -0.013600 0.145000 0 0 0</pose><geometry><box><size>15.52 14.55 0.29</size></box></geometry><surface><friction><ode><mu>100</mu><mu2>50</mu2></ode></friction></surface></collision>
+      <visual name="visual">
+	    <geometry>
+          <mesh>
+            <uri>model://aws_robomaker_retail_RetailShopFloor_01/meshes/aws_RetailShopFloor_01_visual.DAE</uri>
+          </mesh>
+        </geometry>
+        <meta>
+          <layer>1</layer>
+        </meta>
+      </visual>
+	</link>
+	<static>1</static>
+  </model>
+</sdf>

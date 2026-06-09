@@ -1,0 +1,72 @@
+# ROS 2 / colcon artifacts
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+*~
+
+# Runtime / data artifacts
+*.bag
+*.db3
+*.sqlite3
+*.log
+*.tmp
+
+# Large media / map / mesh assets
+*.mp4
+*.avi
+*.png
+*.jpg
+*.jpeg
+*.pgm
+*.stl
+*.STL
+*.dae
+*.DAE
+*.obj
+*.OBJ
+*.onnx
+*.pt
+*.pth
+*.psd
+*.PSD
+*.sldprt
+*.SLDPRT
+*.sldasm
+*.SLDASM
+
+# Tool generated snapshots / caches
+tools/snapshots/
+.repomix-output*
+repomix-output*
+.codegraph/
+.understand-anything/intermediate/
+.understand-anything/diff-overlay.json
+
+# Local agent/tool metadata
+.agents/
+.codex/
+.git_broken_backup_*/
+
+# Optional large world/map assets
+external_worlds/
+benchmark_maps/
+
+# Hardware / simulation binary asset folders
+Bumper-Bot-main/bumperbot_hardware/
+Bumper-Bot-main/bumperbot_description/meshes/
+Bumper-Bot-main/bumperbot_description/models/**/meshes/
+Bumper-Bot-main/bumperbot_description/models/**/materials/textures/
